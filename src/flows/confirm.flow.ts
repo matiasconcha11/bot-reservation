@@ -19,11 +19,13 @@ const generateJsonParse = (info: string) => {
     Contexto: "${info}"
     
     {
-        "name": "Leifer",
+        "user_id": 13
+        "user_name": "Leifer",
+        "trainer_id": "Tomás",
         "interest": "n/a",
         "value": "0",
         "email": "fef@fef.com",
-        "startDate": "2024/02/15 00:00:00"
+        "date": "2024/02/15 00:00:00"
     }
     
     Objeto JSON a generar:`

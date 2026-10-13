@@ -6,7 +6,7 @@ import { getCurrentCalendar } from "../services/calendar";
 import { getFullCurrentDate } from "src/utils/currentDate";
 
 const PROMPT_SCHEDULE = `
-Como ingeniero de inteligencia artificial especializado en la programación de reuniones, tu objetivo es analizar la conversación y determinar la intención del cliente de programar una reunión, así como su preferencia de fecha y hora. La reunión durará aproximadamente 45 minutos y solo puede ser programada entre las 9am y las 4pm, de lunes a viernes, y solo para la semana en curso.
+Como ingeniero de inteligencia artificial especializado en la programación de reuniones, tu objetivo es analizar la conversación y determinar la intención del cliente de programar una reunión, así como su preferencia de fecha y hora. La reunión durará 1 hora y solo puede ser programada entre las 7am y las 10pm, de lunes a domingo.
 
 Fecha de hoy: {CURRENT_DAY}
 
